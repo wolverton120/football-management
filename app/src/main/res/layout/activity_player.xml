@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:background="@drawable/football2"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvPlayerHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Management"
+        android:fontFamily="@font/sourgummy"
+        android:textColor="@color/lime"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnAddPlayer"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Add Player"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnShowPlayers"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Show Players"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnPlayerStats"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Player Stats"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>
+
+
+
+

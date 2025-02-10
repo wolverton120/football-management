@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/football2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvPlayerStatsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="Player Stats"
+            android:fontFamily="@font/sourgummy"
+            android:textColor="@color/lime"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnTopScorers"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Top Scorers"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnTopAssisters"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Top Assisters"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnTopGoalkeepers"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Top Goalkeepers"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnTopEarners"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Top Earners"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnMostAged"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Most Aged Players"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnPlayerAwards"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Player Awards"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:id="@+id/btnStatRules"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Stat Rules"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

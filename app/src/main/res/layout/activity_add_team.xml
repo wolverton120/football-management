@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/football17">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etTeamName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Team Name"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etMatchWon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matches Won"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMatchLost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matches Lost"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMatchDrew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matches Drew"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etPointsEarned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Points Earned"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etGoalsScored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Goals Scored"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etGoalsConceded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Goals Conceded"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Submit"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+    </LinearLayout>
+</ScrollView>
+
+

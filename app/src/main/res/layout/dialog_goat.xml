@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgGoat"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/messi"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/txtCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lionel Messi is the greatest player of all time."
+        android:fontFamily="@font/sourgummy"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:lineSpacingExtra="6dp" />
+</LinearLayout>

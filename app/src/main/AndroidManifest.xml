@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/football_icon_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/football_icon_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FootballManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".StatExplanationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AwardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgedPlayersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalariesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalkeepersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AssistsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerStatDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatRulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RelegationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalDifferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RankingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeamStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowPlayersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowTeamsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemovePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveTeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddTeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/football20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player Name"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etPlayerAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player Age"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player Salary"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etGoalsScored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Goals Scored"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etGoalsAssisted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Goals Assisted"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMostCleanSheets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Most Clean Sheets"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAddPlayer"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:fontFamily="@font/sourgummy"
+            android:text="Add Player"
+            android:textColor="@color/lime"
+            android:textSize="20sp"
+            app:rippleColor="@color/Blue"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="5dp" />
+    </LinearLayout>
+</ScrollView>
+

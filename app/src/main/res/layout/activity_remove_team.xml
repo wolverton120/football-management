@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/football8">
+
+    <EditText
+        android:id="@+id/etTeamId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Team ID to Remove"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnRemoveTeam"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Remove Team"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+</LinearLayout>

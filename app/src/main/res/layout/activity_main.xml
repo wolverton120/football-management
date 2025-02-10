@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/football18">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Football Management System"
+        android:fontFamily="@font/sourgummy"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTeam"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Team"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnPlayer"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Player"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnCredits"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Credits"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/btnGoat"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/sourgummy"
+        android:text="Who's the goat?"
+        android:textColor="@color/lime"
+        android:textSize="20sp"
+        app:rippleColor="@color/Blue"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>
+
